@@ -2,13 +2,15 @@ FROM nampdn/node-alpine-git:11
 
 WORKDIR /app
 
-COPY package.json .
+RUN mkdir /app/node_modules
 
-RUN yarn install --frozen-lockfile --production
-
-RUN yarn compile
+COPY package.json package-lock.json ./
 
 COPY . .
+
+RUN npm install && npm run compile
+
+VOLUME /app/node_modules
 
 EXPOSE 3000
 
