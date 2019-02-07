@@ -1,5 +1,5 @@
 {
-  "name": "@write-for-christ/airtable-prisma",
+  "name": "@write-for-christ/vichurch-worker",
   "version": "0.0.0",
   "description": "",
   "main": "build/src/index.js",
