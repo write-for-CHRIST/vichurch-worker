@@ -23,14 +23,14 @@
     "start": "concurrently \"npm:dev\" \"npm:run-bin\""
   },
   "devDependencies": {
-    "@types/dotenv": "^6.1.0",
+    "@types/dotenv": "6.1.0",
     "@types/jest": "24.0.6",
     "@types/ramda": "0.25.47",
     "concurrently": "4.1.0",
     "gts": "0.9.0",
-    "jest": "^24.1.0",
+    "jest": "24.1.0",
     "nodemon": "1.18.9",
-    "ts-jest": "^24.0.0",
+    "ts-jest": "24.0.0",
     "ts-node": "8.0.2",
     "typescript": "3.1.6",
     "vikit": "0.3.4"
