@@ -7,7 +7,7 @@ hukk.register({
   endpoint: '/webhook',
   handle: async data => {
     const {action} = data.body;
-		console.log(`Receive action: ${action}`);
+    console.log(`Receive action: ${action}`);
     switch (action) {
       case 'sync-profiles':
         console.log('Fetching profiles from AirTable...');

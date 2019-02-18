@@ -10,10 +10,10 @@
   "license": "Apache-2.0",
   "keywords": [],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "check": "gts check",
     "clean": "gts clean",
-    "compile": "npx tsc",
+    "compile": "npx tsc -p tsconfig.build.json",
     "fix": "gts fix",
     "prepare": "npm run compile",
     "pretest": "npm run compile",
@@ -23,18 +23,22 @@
     "start": "concurrently \"npm:dev\" \"npm:run-bin\""
   },
   "devDependencies": {
-    "@types/dotenv": "6.1.0",
+    "@types/dotenv": "^6.1.0",
+    "@types/jest": "24.0.6",
     "@types/ramda": "0.25.47",
     "concurrently": "4.1.0",
     "gts": "0.9.0",
+    "jest": "^24.1.0",
     "nodemon": "1.18.9",
+    "ts-jest": "^24.0.0",
+    "ts-node": "8.0.2",
     "typescript": "3.1.6",
     "vikit": "0.3.4"
   },
   "dependencies": {
     "@write-for-christ/vichurch-model": "0.6.0",
-    "airtable": "0.5.8",
-    "dotenv": "6.2.0",
+    "airtable": "^0.5.9",
+    "dotenv": "^6.2.0",
     "hukk": "1.3.0",
     "ramda": "0.26.1"
   }

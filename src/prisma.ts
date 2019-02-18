@@ -20,9 +20,8 @@ const syncProfile = async (record: Profile) => {
     return result;
   } catch (err) {
     throw new Error(
-      `Could not sync profile: ${record.lastName} ${record.firstName} ${
-        err.code
-      }: ${err.message}`,
+        `Could not sync profile: ${record.lastName} ${record.firstName} ${
+            err.code}: ${err.message}`,
     );
   }
 };
