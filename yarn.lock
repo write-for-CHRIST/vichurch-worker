@@ -1104,7 +1104,7 @@ graphql@14.1.1, graphql@^14.0.2:
   dependencies:
     iterall "^1.2.2"
 
-gts@^0.9.0:
+gts@0.9.0:
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/gts/-/gts-0.9.0.tgz#b29277aa626abe8041180b9e39bb8f3daefe6486"
   integrity sha512-Id2Vmg0xNU1FODc0AwmaFA1h0+h6V9/zBqu4NfT8FucVOVEP7pyJ16btyHfSH/UdzTCXjV1fq+fNBEgx/50EaA==
@@ -3040,7 +3040,7 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@~3.1.0:
+typescript@3.1.6:
   version "3.1.6"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.1.6.tgz#b6543a83cfc8c2befb3f4c8fba6896f5b0c9be68"
   integrity sha512-tDMYfVtvpb96msS1lDX9MEdHrW4yOuZ4Kdc4Him9oU796XldPYF/t2+uKoX0BBa0hXXwDlqYQbXY5Rzjzc5hBA==
