@@ -23,7 +23,7 @@
     "start": "concurrently \"npm:dev\" \"npm:run-bin\""
   },
   "devDependencies": {
-    "@types/dotenv": "^6.1.0",
+    "@types/dotenv": "6.1.1",
     "@types/jest": "24.0.6",
     "@types/ramda": "0.25.47",
     "concurrently": "4.1.0",
